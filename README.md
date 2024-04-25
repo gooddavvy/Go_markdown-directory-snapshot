@@ -21,7 +21,11 @@ Also, change the name of `test_directory` to the name that fits your needs, and 
 func main() {
 	// Define the root path and ignore list
 	rootPath := "test_directory" // < replace this if needed
-	ignoreList := []string{"ignore_this_file.txt", "ignore_this_directory", "accept_this_directory/ignore_this_thing.txt"} // < replace that if needed
+	ignoreList := []string{
+		"ignore_this_file.txt",
+		"ignore_this_directory",
+		"accept_this_directory/ignore_this_thing.txt",
+	} // ^ Replace those if needed
 
     // v Leave the rest as it is unless you want to add extra logic.
 	// Call the function to generate the Markdown snapshot
@@ -39,3 +43,5 @@ go run main.go
 ```
 
 An `output.md` file will be created at the root level of your project, containing a snapshot of non-ignored files and their contents.
+
+Please let me know (in the [Issues Section](https://github.com/gooddavvy/Go_markdown-directory-snapshot/issues)) if you encounter any issues during setup.

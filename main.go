@@ -11,7 +11,11 @@ import (
 func main() {
 	// Define the root path and ignore list
 	rootPath := "test_directory"
-	ignoreList := []string{"ignore_this_file.txt", "ignore_this_directory", "accept_this_directory/ignore_this_thing.txt"}
+	ignoreList := []string{
+		"ignore_this_file.txt",
+		"ignore_this_directory",
+		"accept_this_directory/ignore_this_thing.txt",
+	}
 
 	// Call the function to generate the Markdown snapshot
 	err := generateMarkdownSnapshot(rootPath, ignoreList)
