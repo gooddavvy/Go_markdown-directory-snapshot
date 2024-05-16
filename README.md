@@ -45,3 +45,7 @@ go run main.go
 An `output.md` file will be created at the root level of your project, containing a snapshot of non-ignored files and their contents.
 
 Please let me know (in the [Issues Section](https://github.com/gooddavvy/Go_markdown-directory-snapshot/issues)) if you encounter any issues during setup.
+
+# What's coming soon
+
+An extremely amazing application, with a PythonStreamlit-powered frontend and GolangFiber-powered backend, based on this program, is coming soon, so stay tuned! [Follow me](https://github.com/gooddavvy) to get a notification immediately after I release it to the public.
